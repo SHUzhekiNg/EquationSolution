@@ -81,7 +81,7 @@ char WelcomeUI(void) {
 	cout << "Please select method:" << endl;
 	cout << "1: [Common] Input by keyboard." << endl;
 	cout << "0: Test local data." << endl;
-	cout << "-1: Quit." << endl << endl;
+	cout << "q: Quit." << endl << endl;
 	char inp;
 	cin >> inp;
 	return inp;
