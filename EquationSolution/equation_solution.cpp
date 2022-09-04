@@ -19,7 +19,6 @@ bool InputParams(double& a, double& b, double& c)
 		cout << "Your input is: a = " << a << ", b = " << b << ", c = " << c << ", is it correct? (y/n)";
 		ch = getchar();
 		if (ch == 'Y' || ch == 'y' || ch == '\n') return true;
-		else continue;
 	}
 	return false;
 }
@@ -48,8 +47,8 @@ void Run(vector<string>& ans, double a, double b, double c) {
 		}
 	}
 	else {
-		ans.push_back(to_string(0.5 * (-b) / a) + "+" + to_string(sqrt(-delta)) + "i");
-		ans.push_back(to_string(0.5 * (-b) / a) + "-" + to_string(sqrt(-delta)) + "i");
+		ans.push_back(to_string(0.5 * (-b) / a) + " +" + to_string(sqrt(-delta)) + " i");
+		ans.push_back(to_string(0.5 * (-b) / a) + " -" + to_string(sqrt(-delta)) + " i");
 	}
 }
 
