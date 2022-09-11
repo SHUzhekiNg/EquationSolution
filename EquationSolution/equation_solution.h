@@ -1,6 +1,6 @@
 #pragma once
-#ifndef EQUALATION_SOLUTION_H_
-#define EQUALATION_SOLUTION_H_
+#ifndef EQUATION_SOLUTION_H_
+#define EQUATION_SOLUTION_H_
 
 #include <iostream>
 #include <string>

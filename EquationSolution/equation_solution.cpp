@@ -1,4 +1,4 @@
-#include "equalation_solution.h"
+#include "equation_solution.h"
 
 /**
 * @breif: Calculate delta while deciding which method of calcutation to use.

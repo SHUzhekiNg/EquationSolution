@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="equalation_solution.h">
+    <ClInclude Include="equation_solution.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,4 +1,4 @@
-#include "equalation_solution.h"
+#include "equation_solution.h"
 
 int main() {
 	int n;
